@@ -1,0 +1,58 @@
+.cd1{
+    height:500px;
+    width:500px;
+   
+}
+.cd2{
+    height:500px;
+    width:500px;
+    
+
+}
+.cp1{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+   
+
+}
+.map{
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.cttxt{
+    display: flex;
+
+}
+.ctcp1{
+    margin-left:4%;
+    font-size: 25px;
+    color:white ;
+
+}
+.ctcont1{
+    margin-top: 23%;
+    margin-left: 10%;
+}
+@media only screen and (max-width:991px) {
+    .ctcont1{
+        margin-top: 10%;
+        margin-top: 1%;
+        margin-right: auto;
+    }
+    .map{
+        height:350px;
+        width:380px;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-top: 7%;
+    }
+    .ctcp1{
+        margin-left:4%;
+        font-size: 19px;
+        color:white ;
+    
+    }
+    
+  }
