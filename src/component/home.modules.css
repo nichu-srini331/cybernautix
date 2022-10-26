@@ -51,7 +51,7 @@
     width: 100%;
     font-family:space ;
     text-shadow:2px 2px 2px 2px #00CCFF;
-    
+    text-shadow: 0px 0px 22px #00CCFF;
 }
 .hbody{
     margin-left: auto !important;
