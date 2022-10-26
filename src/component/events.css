@@ -54,8 +54,9 @@ font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
-    height: 100px;
-}     
+    height: px;
+    content: url(../image/tech1.jpg);
+}     */
 
 .row{
     padding-top: 2%;
@@ -106,27 +107,28 @@ font-size: 30px;
     max-width: 80%;
     max-height: 80%;
     object-fit: cover;
-    transition-duration: 0.8s;
-  transition-timing-function: linear;
+    transition-duration: 1s;
+  transition-timing-function: ease;
 
     backface-visibility: hidden;
   }
   .circle-1:hover{
-    box-shadow: 6px 6px 60px rgba(4, 170,248,0.9);
-    border: none;
+    box-shadow: 6px 6px 60px rgba(4, 170,248,0.7);
+  
   }
 
   .circle-1:hover img {
     opacity: 0.3;
-   margin-left: auto;
-   margin-right: auto;
+    width:200px ;
+    height: 200px ;
+   
 
 }
 
 .circle-1:hover .evename {
     opacity: 1;
     color: white;
-   
+    
     text-align: center;
 }
 

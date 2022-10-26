@@ -11,7 +11,7 @@ import image from "../image/tech1.jpg";
 export default function Events() {
   return (
     <div>
-        <Particle/>
+        
       <Navigation />
       <h2 className="eh1"> Technical Events </h2>
 
@@ -76,7 +76,7 @@ export default function Events() {
 
               
                 
-
+              <Particle/>
 </div>
 );
 }
