@@ -15,12 +15,14 @@ export default function Events() {
       <Navigation />
       <h2 className="eh1"> Technical Events </h2>
 
-      <div class="container c1 ">
+      <div class="container ">
                 <div class="row justify-content-centre">
                   <div class="col-sm-6 col-md-4 col-lg-4  ">
                     <div className="grid circle-1">
-                    <img src={image} className="hover" alt="" />
+                       
+                    <img src={image}  alt="" />
                     <h1 className="evename">Python</h1>
+                    
                     </div>
                     
                   </div>

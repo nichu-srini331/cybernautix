@@ -65,39 +65,31 @@ font-size: 30px;
     width:200px !important;
     height:200px !important;
     border-radius: 50%;
-    border:20px solid #00CCFF;
+    border:10px solid #00CCFF;
     box-shadow: 6px 6px 60px rgba(4, 170,248,0.4);
     
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 
 }
 .evename{
-    z-index: 1;
-    margin-top: -125px;
+   
+    margin-top: -120px;
     color: #FFFFFF;
-opacity: 0;
+    opacity: 0;
 }
 
 .evename:hover{
-    opacity:1;
+   
 }
 
-  .circle-2 {
-    width:200px !important;
-    height:200px !important;
-    border-radius: 50%;
-    border:20px solid #00CCFF;
-  }
-
-  .evename{
-    z-index: 1;
-    margin-top: -125px;
-    color: #FFFFFF;
-    opacity: 0;
-  }
   
-  .evename:hover{
-    opacity: 1;
-  }
+
+  
   /* .circle-1:hover img {
     transform: scale(2.1);
    -ms-transform: scale(1.1); 
@@ -110,13 +102,32 @@ opacity: 0;
     height: 180px ;
     border-radius: 50%;
     cursor:pointer;
-    margin-left: -10px;
-    margin-top: -10px;
-    transition: all 0.2s linear;
-    -webkit-transition: all 0.2s linear;
+    margin-left: 14px;
+    margin-top: 14px;
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    transition-duration: 0.8s;
+  transition-timing-function: linear;
 
+    backface-visibility: hidden;
+  }
+  .circle-1:hover{
+    box-shadow: 6px 6px 60px rgba(4, 170,248,0.9);
+    border: none;
   }
 
+  .circle-1:hover img {
+    opacity: 0.3;
+   margin-left: auto;
+   margin-right: auto;
 
+}
 
- 
+.circle-1:hover .evename {
+    opacity: 1;
+    color: white;
+   
+    text-align: center;
+}
+
