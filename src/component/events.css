@@ -41,19 +41,11 @@ background: linear-gradient(to right, #C576F6 21%, #04AAF8 100%);
 font-size: 30px;
 }
 
-/* .grid{
-    
-    width: 216px;
-    height: 216px;
-    border-radius: 50%;
-    border: 2px solid re;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    background: linear-gradient(to right, #00CCFF, purple);
+.grid{
+  margin-left: auto;
+  margin-right: auto;
 
-} */
+}
 
 /* .grid1{
     width: 200px;
@@ -69,15 +61,26 @@ font-size: 30px;
 .row{
     padding-top: 2%;
 }
-
 .circle-1 {
     width:200px !important;
     height:200px !important;
     border-radius: 50%;
     border:20px solid #00CCFF;
-    box-shadow: 6px 6px 60px rgba(4, 170, 248, 0.4);
- 
+    box-shadow: 6px 6px 60px rgba(4, 170,248,0.4);
+    
+
 }
+.evename{
+    z-index: 1;
+    margin-top: -125px;
+    color: #FFFFFF;
+opacity: 0;
+}
+
+.evename:hover{
+    opacity:1;
+}
+
   .circle-2 {
     width:200px !important;
     height:200px !important;
@@ -103,13 +106,17 @@ font-size: 30px;
      opacity: 1;
    } */
   .circle-1 img {
-    width:180px !important;
-    height: 180px !important;;
+    width:180px ;
+    height: 180px ;
     border-radius: 50%;
     cursor:pointer;
-    margin-left: -20px;
+    margin-left: -10px;
     margin-top: -10px;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
+
   }
+
+
+
  
