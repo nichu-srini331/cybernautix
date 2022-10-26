@@ -16,15 +16,14 @@ export default function Events() {
       <h2 className="eh1"> Technical Events </h2>
 
       <div class="container c1 ">
-                <div class="row justify-content-center">
-                  <div class="s1 col-sm-6 col-md-4 col-lg-4 ">
-                    <div class="grid grid1">
-                        
-                    </div>
+                <div class="row ">
+                  <div class="col-sm-6 col-md-4 col-lg-4 circle-1  ">
+                    <img src={image} alt="" />
                   </div>
-                  <div class="s1 col-sm-6 col-md-4 col-lg-4">
-                    <div class="grid grid2">
-                
+                  <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="grid grid2 ">
+                    
+                  
                     </div>
                   </div>
                   <div class="s1 col-sm-6 col-md-4 col-lg-4">
@@ -61,6 +60,12 @@ export default function Events() {
                 </div>
 
               </div>
+
+              <div class="circle-1  ">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/b7/c2/0b/skanderbeg-square.jpg" alt="Skanderbeg Square Albania" />
+                  </div>
+                
+
     </div>
   );
 }

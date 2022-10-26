@@ -41,7 +41,7 @@ background: linear-gradient(to right, #C576F6 21%, #04AAF8 100%);
 font-size: 30px;
 }
 
-.grid{
+/* .grid{
     
     width: 216px;
     height: 216px;
@@ -51,12 +51,11 @@ font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3%;
-    
-    box-shadow: 6px 6px 60px rgba(4, 170, 248, 0.6);
+    background: linear-gradient(to right, #00CCFF, purple);
 
-}
+} */
 
- .grid1{
+/* .grid1{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -65,8 +64,7 @@ font-size: 30px;
     width: 200px;
     height: px;
     content: url(../image/tech1.jpg);
-    opacity: 0.8;
-}     
+}     */
 
 .row{
     padding-top: 2%;
@@ -76,15 +74,41 @@ font-size: 30px;
     width:200px !important;
     height:200px !important;
     border-radius: 50%;
-    border:20px solid #baacc6;
-    float:left;
+    border:20px solid #00CCFF;
+    box-shadow: 6px 6px 60px rgba(4, 170, 248, 0.4);
+ 
+}
+  .circle-2 {
+    width:200px !important;
+    height:200px !important;
+    border-radius: 50%;
+    border:20px solid #00CCFF;
+  }
+
+  .evename{
+    z-index: 1;
+    margin-top: -125px;
+    color: #FFFFFF;
+    opacity: 0;
   }
   
+  .evename:hover{
+    opacity: 1;
+  }
+  /* .circle-1:hover img {
+    transform: scale(2.1);
+   -ms-transform: scale(1.1); 
+   -webkit-transform: scale(1.1);
+     box-shadow: 2px 2px 2px #4b4b4b;
+     opacity: 1;
+   } */
   .circle-1 img {
     width:180px !important;
     height: 180px !important;;
     border-radius: 50%;
     cursor:pointer;
+    margin-left: -20px;
+    margin-top: -10px;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
   }
