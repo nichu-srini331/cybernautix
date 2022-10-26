@@ -14,7 +14,7 @@ import { Particle } from './Particle';
 export default function Home() {
   return (
     <div className='container-fluid home'>
-      
+      <Particle/>
         <Navigation/>
        <div className='row'>
         <div className='head'>

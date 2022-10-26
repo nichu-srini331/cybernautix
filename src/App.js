@@ -14,7 +14,7 @@ function App() {
                     <Route path="/events" element={<Events />} />
                 </Routes>
             </Router>
-            <Particle/>
+            
      </>
     
     </div>
