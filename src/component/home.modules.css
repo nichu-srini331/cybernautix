@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "space";   /*Can be any text*/
+    src: local("AirbnbCerealMedium"),
+      url("../text/batmfa__.ttf") format("woff");
+  }
+  
+.hlogo{
+    height:100px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.hc1{
+  display: flex;
+  margin-left: 50%;
+ 
+}
+.hcont{
+    display: flex;
+}
+
+.head{
+    margin-top: 35px !important;
+}
+.hp2{
+    color: rgb(241, 236, 228);
+    font-size: 23px !important;
+    font-weight: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 700px !important; 
+    text-align: center;
+    margin-top: -25px;
+
+}
+.hp1{
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.hp3{
+    color: rgb(241, 236, 228);
+    font-size: 28px;
+    
+    width: 100%;
+    margin-top: 3%;
+}
+.hp4{
+    color: #00CCFF;
+    font-size: 70px;
+    width: 100%;
+    font-family:space ;
+    text-shadow:2px 2px 2px 2px #00CCFF;
+    
+}
+.hbody{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1% !important;
+    z-index: 5 !important;
+    text-align: center !important;
+}
+.hcimg{
+    height: 600px;
+    width: 500px;
+   
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 110%;
+    z-index:-1;
+}
+/* .himg2{
+    height:500px;
+    
+} */
+.htp1{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.htp2{
+   color: #00CCFF;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.htable{
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    border-radius: 20px;
+    margin-left: 20%;
+    border-color:white ;
+    width: 60% !important;
+    margin-top: -3%;
+}
+
+.hline{
+    height:100px;
+    margin-top: 0.5%;
+    width:3px;
+    background-color: aliceblue;
+}
+
+.hbtn1{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #00CCFF;
+    border-radius: 10px;
+    display: block;
+    height:55px;
+    width:150px !important;
+    margin-left:45% ;
+    margin-top: 4%;
+    border-color: #00CCFF;
+
+}
+.hbtn1:hover{
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
