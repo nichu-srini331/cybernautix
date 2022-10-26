@@ -32,3 +32,11 @@ box-shadow: 6px 6px 60px rgba(4, 170, 248, 0.6);
 border-radius: 30px;
 
 }
+
+.ctxt{
+    background: #C576F6;
+background: linear-gradient(to right, #C576F6 21%, #04AAF8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+}
