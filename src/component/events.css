@@ -7,6 +7,8 @@ font-weight: 400;
 font-size: 40px;
 line-height: 61px;
 color: #FFFFFF;
+padding-bottom: 3%;
+
 }
 
 .para{
@@ -59,11 +61,11 @@ font-size: 30px;
 }     */
 
 .row{
-    padding-top: 2%;
+    padding-bottom: 4%;
 }
 .circle-1 {
-    width:200px !important;
-    height:200px !important;
+    width:250px !important;
+    height:250px !important;
     border-radius: 50%;
     border:10px solid #00CCFF;
     box-shadow: 6px 6px 60px rgba(4, 170,248,0.4);
@@ -78,7 +80,7 @@ font-size: 30px;
 }
 .evename{
    
-    margin-top: -120px;
+    margin-top: -170px;
     color: #FFFFFF;
     opacity: 0;
 }
@@ -98,17 +100,17 @@ font-size: 30px;
      opacity: 1;
    } */
   .circle-1 img {
-    width:180px ;
-    height: 180px ;
+    width:250px ;
+    height: 250px ;
     border-radius: 50%;
     cursor:pointer;
-    margin-left: 14px;
-    margin-top: 14px;
-    max-width: 80%;
-    max-height: 80%;
+    margin-left: 0.1px;
+    margin-top: -0.1px;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
     transition-duration: 1s;
-  transition-timing-function: ease;
+     transition-timing-function: ease;
 
     backface-visibility: hidden;
   }
@@ -119,8 +121,7 @@ font-size: 30px;
 
   .circle-1:hover img {
     opacity: 0.3;
-    width:200px ;
-    height: 200px ;
+    
    
 
 }

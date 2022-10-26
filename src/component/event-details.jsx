@@ -28,11 +28,11 @@ export default function EventDetails(props) {
                 </div>
             </div>
             <div className="row ">
-                {/* <h7 style={{color : 'white'}} className="txt">
+                <h7 style={{color : 'white'}} className="txt">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum<br></br> is
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an  Lorem          
-                     </h7> */}
+                     </h7>
             </div><br></br>
             <div className="row">
                 <div class="card" style={{width : '600px',marginLeft:'auto',marginRight:'auto'}}>

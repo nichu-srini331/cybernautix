@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Navigation() {
   return (
-    <div class="row">
+    <div class="">
         <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home"><img src={logo} className="hlogo"/></Navbar.Brand>
