@@ -4,47 +4,77 @@ import Navigation from "./navbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from 'react-bootstrap/Card';
-
-import image from "../image/dummy.png";
+import Card from "react-bootstrap/Card";
+import { Particle } from './Particle';
+import image from "../image/tech1.jpg";
 
 export default function Events() {
   return (
     <div>
+        <Particle/>
       <Navigation />
-      <div>
-        <h2 className="eh1"> Technical Events </h2>
+      <h2 className="eh1"> Technical Events </h2>
 
-        <div className="container-fluid">
-          <div className="row ">
-            <div className="row ">
-              <img src={image} className="image" alt="" />
-            </div>
+      <div class="container c1 ">
+                <div class="row justify-content-centre">
+                  <div class="col-sm-6 col-md-4 col-lg-4  ">
+                    <div className="grid circle-1">
+                    <img src={image} className="hover" alt="" />
+                    <h1 className="evename">Python</h1>
+                    </div>
+                    
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="grid circle-1 ">
+                    <img src={image} alt="" />
+                    <h1 className="evename">Python</h1>
 
-            <div className="row">
-              <div className="col-6 para"></div>
-              <div className="col-6 ">
+                    </div>
+                  </div>
+                  <div class="s1 col-sm-6 col-md-4 col-lg-4">
+                  <div class="grid circle-1 ">
+                    <img src={image} alt="" />
+                    <h1 className="evename">Python</h1>
 
-              <div class="card" style={{width : '576px',
-                marginLeft : 'auto',
-                marginRight : 'auto'
-            }}>
-  <div class="card-body">
-    <h5 class="card-title" style={{textAlign : 'center'}} className="ctxt">PYTHON CODING</h5>
-   
-    <p class="card-text" style={{color : 'white'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-   
-  </div>
-</div>
+                    </div>
+                  </div>
+                  
+                  
+              
+                    </div>
+
+                    <div className="row justify-content-center">
+
+                
+
+                
+                    <div class="s1 col-sm-6 col-md-4 col-lg-4 ">
+                    <div class="grid circle-1 ">
+                    <img src={image} alt="" />
+                    <h1 className="evename">Python</h1>
+
+                    </div>
+                    </div>
+                    <div class="s1 col-sm-6 col-md-4 col-lg-4">
+                    <div class="grid circle-1 ">
+                    <img src={image} alt="" />
+                    <h1 className="evename">Python</h1>
+
+                    </div>
+                    </div>
+                    
+                    
+                
+
+                    
+  
+                </div>
 
               </div>
-            </div>
 
-           
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+              
+                
+
+</div>
+);
 }

@@ -40,3 +40,82 @@ background: linear-gradient(to right, #C576F6 21%, #04AAF8 100%);
 -webkit-text-fill-color: transparent;
 font-size: 30px;
 }
+
+.grid{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* .grid1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100px;
+}     
+
+.row{
+    padding-top: 2%;
+}
+.circle-1 {
+    width:200px !important;
+    height:200px !important;
+    border-radius: 50%;
+    border:20px solid #00CCFF;
+    box-shadow: 6px 6px 60px rgba(4, 170,248,0.4);
+    
+
+}
+.evename{
+    z-index: 1;
+    margin-top: -125px;
+    color: #FFFFFF;
+opacity: 0;
+}
+
+.evename:hover{
+    opacity:1;
+}
+
+  .circle-2 {
+    width:200px !important;
+    height:200px !important;
+    border-radius: 50%;
+    border:20px solid #00CCFF;
+  }
+
+  .evename{
+    z-index: 1;
+    margin-top: -125px;
+    color: #FFFFFF;
+    opacity: 0;
+  }
+  
+  .evename:hover{
+    opacity: 1;
+  }
+  /* .circle-1:hover img {
+    transform: scale(2.1);
+   -ms-transform: scale(1.1); 
+   -webkit-transform: scale(1.1);
+     box-shadow: 2px 2px 2px #4b4b4b;
+     opacity: 1;
+   } */
+  .circle-1 img {
+    width:180px ;
+    height: 180px ;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-left: -10px;
+    margin-top: -10px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+
+  }
+
+
+
+ 
