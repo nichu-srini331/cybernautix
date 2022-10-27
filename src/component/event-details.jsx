@@ -16,16 +16,16 @@ export default function EventDetails(props) {
       <Navigation />
         <div className="container-fluid">
             <div className="row r1 text-center">
-                <h1>{props.data}</h1>
+                <h1 className="gradient-text">{props.data}</h1>
             </div><br></br>
             <div className="row text-center">
                 <div class="col">
                     <h6 style={{color : 'whitesmoke'}}>When</h6>
-                    <p className="edp">11.00 AM</p>
+                    <p className="gradient-text">11.00 AM</p>
                 </div>
                 <div class="col">
                     <h6 style={{color : 'white'}}>Where</h6>
-                    <p className="edp">R.M Block</p>
+                    <p className="gradient-text">R.M Block</p>
                 </div>
             </div>
             <div className="row ">
@@ -38,7 +38,7 @@ export default function EventDetails(props) {
             <div className="row">
                 <div class="card" style={{width : '600px',marginLeft:'auto',marginRight:'auto'}}>
                     <div class="card-body">
-                        <h4 class="card-title" style={{color:'whitesmoke'}}>Rules and Regulations</h4>
+                        <h4 class="card-title gradient-text">Rules and Regulations</h4>
                         <h6 class="card-text" style={{color : 'whitesmoke'}}>
                         <ul>
 <li>                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
