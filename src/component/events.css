@@ -1,13 +1,13 @@
 .eh1{
 
    text-align: center;
-    font-family: 'Titillium Web';
-font-style: normal;
+   
 font-weight: 400;
 font-size: 40px;
 line-height: 61px;
 color: #FFFFFF;
 padding-bottom: 3%;
+font-variant: small-caps;
 
 }
 
@@ -60,9 +60,9 @@ font-size: 30px;
     content: url(../image/tech1.jpg);
 }     */
 
-.row{
+/* .row{
     padding-bottom: 4%;
-}
+} */
 .circle-1 {
     width:250px !important;
     height:250px !important;
@@ -129,7 +129,13 @@ font-size: 30px;
 .circle-1:hover .evename {
     opacity: 1;
     color: white;
-    
     text-align: center;
 }
 
+.link{
+  text-decoration: none;
+}
+
+.pad{
+  padding-bottom: 4%;
+}
