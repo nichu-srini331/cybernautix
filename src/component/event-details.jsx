@@ -9,6 +9,7 @@ import { Particle } from './Particle';
 import image from "../image/dummy.png";
 
 export default function EventDetails(props) {
+    
   return (
     <div>
          <Particle/>

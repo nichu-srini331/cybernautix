@@ -120,6 +120,8 @@ export default function Events() {
         </div>
       </div>
      
+      
+     
       <div style={{ marginTop: "4%" }}>
       <Fade left >
         <h2 className="eh1">Non Technical Events </h2>
@@ -209,5 +211,6 @@ export default function Events() {
       
       <Particle />
     </div>
+   
   );
 }
