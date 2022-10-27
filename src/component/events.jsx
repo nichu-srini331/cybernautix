@@ -18,14 +18,18 @@ import nimage3 from "../image/ntech3.jpg";
 import nimage4 from "../image/ntech4.jpg";
 import nimage5 from "../image/ntech5.jpg";
 import { Link } from "react-router-dom";
+
 import {Animated} from "react-animated-css";
+
 export default function Events() {
   return (
     <div>
       <Navigation />
       <div>
+     
+        <div>
         <h2 className="eh1"> Technical Events </h2>
-
+        
         <div class="container ">
           <div class="row justify-content-centre">
             <div class="col-sm-6 col-md-4 col-lg-4  ">
@@ -86,6 +90,15 @@ export default function Events() {
         </div>
       </div>
      
+      <Animated 
+         animationIn="tada" 
+         animationOut="zoomOut" 
+         animationInDuration={1000} 
+         animationOutDuration={1000} 
+         isVisible={true}
+         animateOnMount={true}
+      >
+     
       <div style={{ marginTop: "4%" }}>
         <h2 className="eh1">Non Technical Events </h2>
 
@@ -137,9 +150,11 @@ export default function Events() {
           </div>
         </div>
       </div>
+      </Animated>
      
       
       <Particle />
+    </div>
     </div>
   );
 }
