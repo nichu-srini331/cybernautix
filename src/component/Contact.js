@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./contact.css"
 import { Particle } from './Particle';
-import {Animated} from "react-animated-css";
+
 
 
 export default function Contact() {
@@ -14,13 +14,7 @@ export default function Contact() {
        <Particle/>
 
         <Navigation/>
-        <Animated 
-         animationIn="tada" 
-         animationOut="zoomOut" 
-         animationInDuration={1000} 
-         animationOutDuration={1000} 
-         isVisible={true}
-      >
+        
         <Container>
             <p className='cp1'>Contact Us</p>
       <Row>
@@ -80,7 +74,7 @@ export default function Contact() {
     </Container>
     
           
-      </Animated>
+      
 
     </div>
   )
