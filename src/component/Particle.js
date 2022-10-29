@@ -52,17 +52,17 @@ export const Particle = () => {
         },
         particles: {
           color: {
-            value: "#00CCFF",
+            value: "#00FF66",
           },
           links: {
-            color: "#00CCFF",
+            color: "#00FF66",
             distance:100,
             enable: true,
             opacity: 0.5,
             width: 3,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             directions: "none",

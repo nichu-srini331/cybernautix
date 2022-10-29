@@ -39,9 +39,10 @@ export default function Events() {
               <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={image} alt="" />
-                  <h2 className="evename">
+                  <div className="align"><h2 className="evename">
                     Python <br /> Coding
-                  </h2>
+                  </h2></div>
+                  
                 </div>
               </Link>
               </Fade>
@@ -52,9 +53,11 @@ export default function Events() {
             <Link to="/events-dPy" className="link">
               <div class="grid circle-1 ">
                 <img src={image2} alt="" />
+                <div className="align">
                 <h2 className="evename">
                   Blind <br /> Coding
                 </h2>
+                </div>
               </div>
               </Link>
               </Fade>
@@ -64,9 +67,11 @@ export default function Events() {
             <Link to="/events-dPy" className="link">
               <div class="grid circle-1 ">
                 <img src={image3} alt="" />
+                <div className="align">
                 <h2 className="evename">
                   Capture <br /> the Flag
                 </h2>
+                </div>
               </div>
               </Link>
               </Fade>
@@ -82,9 +87,11 @@ export default function Events() {
             <Link to="/events-dPy" className="link">
               <div class="grid circle-1 ">
                 <img src={image4} alt="" />
+                <div className="align">
                 <h2 className="evename">
                   UI <br /> Designing
                 </h2>
+                </div>
               </div>
               </Link>
               </Fade>
@@ -95,9 +102,11 @@ export default function Events() {
             <Link to="/events-dPy" className="link">
               <div class="grid circle-1 ">
                 <img src={image5} alt="" />
+                <div className="align">
                 <h2 className="evename">
                   Solo <br /> Compile{" "}
                 </h2>
+                </div>
               </div>
               </Link>
               </Fade>
@@ -107,10 +116,13 @@ export default function Events() {
             <Fade left >
             <Link to="/events-dPy" className="link">
               <div class="grid circle-1 ">
+                
                 <img src={image6} alt="" />
+                <div className="align">
                 <h2 className="evename">
                   Paper <br /> Presentation
                 </h2>
+                </div>
               </div>
               </Link>
               </Fade> 

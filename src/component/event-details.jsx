@@ -12,31 +12,36 @@ export default function EventDetails(props) {
     
   return (
     <div>
-         <Particle/>
+         
       <Navigation />
-        <div className="container-fluid">
+        <div className="container-fluid pad">
             <div className="row r1 text-center">
-                <h1 className="gradient-text">{props.data}</h1>
+                <h1 className="gradient-text" style={{fontSize : '50px'}}>{props.data}</h1>
             </div><br></br>
             <div className="row text-center">
                 <div class="col">
-                    <h6 style={{color : 'whitesmoke'}}>When</h6>
+                    <h6 style={{color : 'whitesmoke',
+                    fontSize : '22px'
+                
+                }}>Timing</h6>
                     <p className="gradient-text">11.00 AM</p>
                 </div>
                 <div class="col">
-                    <h6 style={{color : 'white'}}>Where</h6>
+                    <h6 style={{color : 'white',
+                fontSize : '22px'
+                }}>Venue</h6>
                     <p className="gradient-text">R.M Block</p>
                 </div>
             </div>
             <div className="row ">
-                <h7 style={{color : 'white'}} className="txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum<br></br> is
+                <p style={{color : 'white'}} className="txt">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum is
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an  Lorem          
-                     </h7>
+                     </p>
             </div><br></br>
             <div className="row">
-                <div class="card" style={{width : '600px',marginLeft:'auto',marginRight:'auto'}}>
+                <div class="card c" style={{marginLeft:'auto',marginRight:'auto'}}>
                     <div class="card-body">
                         <h4 class="card-title gradient-text">Rules and Regulations</h4>
                         <h6 class="card-text" style={{color : 'whitesmoke'}}>
@@ -49,9 +54,10 @@ export default function EventDetails(props) {
                 </div>
             </div>
             <div className="evebtn">
-            <button className='hbtn1'>Register</button>
+            <button className='dbtn1'>Register</button>
             </div>
         </div>
+        <Particle/>
     </div>
   );
 }
