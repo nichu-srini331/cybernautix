@@ -46,7 +46,7 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
-
+            
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
               <Link to="/events/2" className="link">
@@ -102,6 +102,20 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
+          </div>
+        
+        </div>
+      </div>
+     
+      
+     
+      <div style={{ marginTop: "4%" }}>
+      <Fade left >
+        <h2 className="eh1">Non Technical Events </h2>
+        </Fade>
+        <div class="container ">
+       
+     
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
@@ -130,26 +144,59 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
-            
-         
+            <div class="s1 col-sm-6 col-md-6 col-lg-4 pad">
+            <Fade left >
+            <Link to="/events-dPy" className="link">
+              <div class="grid circle-1 ">
+                <img src={nimage3} alt="" />
+                <h2 className="evename">
+                  Treasure <br /> Hunt
+                </h2>
+              </div>
+              </Link>
+              </Fade>
+            </div>
           
-          
-         
-            
-         
-           
 
+          
         
 
+         
+
           
+            <div class="s1 col-sm-6 col-md-6 col-lg-4 pad">
+            <Fade left >
+            <Link to="/events-dPy" className="link">
+              <div class="grid circle-1 ">
+                <img src={nimage4} alt="" />
+                <h2 className="evename">
+                  
+                  Cubinix <br />
+                  Solving
+                </h2>
+              </div>
+              </Link>
+              </Fade>
+            </div>
+
+            <div class="s1  col-lg-4 pad">
+            <Fade left >
+            <Link to="/events-dPy" className="link">
+              <div class="grid circle-1 ">
+                <img src={nimage5} alt="" />
+                <h2 className="evename">
+                  Talent <br /> Gig
+                </h2>
+              </div>
+              </Link>
+              </Fade>
+            </div>
           </div>
-        
+         
+      
         </div>
       </div>
-     
       
-     
-    
          
        
       

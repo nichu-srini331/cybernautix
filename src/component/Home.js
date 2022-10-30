@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navigation from './navbar';
 import { Particle } from './Particle';
-
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className='container-fluid home'>
@@ -60,9 +60,9 @@ export default function Home() {
 
             
         </div> */}
-        
+        <Link to="/events" className="link">
         <button className='hbtn1'>EVENT</button>
-        
+        </Link>
         
         
     </div>
