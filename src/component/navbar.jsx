@@ -9,7 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Navigation() {
   return (
     <div class="">
-        <Navbar expand="lg">
+        <Navbar expand="lg" variant="dark">
       <Container>
         <Navbar.Brand href="#home"><img src={logo} className="hlogo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
