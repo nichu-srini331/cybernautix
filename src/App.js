@@ -15,8 +15,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/events" element={<Events />} />
-                    <Route path="/events-dPy" element={<EventDetails data="Python Coding" />} />
-                    <Route path="/events-dFlag" element={<EventDetails data="Capture the Flag" />} />
+                    <Route path="/events/:id" element={<EventDetails />} />
+                    {/* <Route path="/events-dFlag" element={<EventDetails data="Capture the Flag" />} />
                     <Route path="/events-dBlind" element={<EventDetails data="Blind Coding" />} />
                     <Route path="/events-dUI" element={<EventDetails data="UI Designing" />} />
                     <Route path="/events-dSolo" element={<EventDetails data="Solo Coding" />} />
@@ -25,8 +25,7 @@ function App() {
                     <Route path="/events-dConnx" element={<EventDetails data="Connextions" />} />
                     <Route path="/events-dHunt" element={<EventDetails data="Treasure Hunt" />} />
                     <Route path="/events-dCub" element={<EventDetails data="Cubix Solving" />} />
-                    <Route path="/events-dTal" element={<EventDetails data="Talent Gig" />} />
-                    
+                    <Route path="/events-dTal" element={<EventDetails data="Talent Gig" />} /> */}
                     <Route path="/contactus" element={<Contact/>} />
                 </Routes>
             </Router>
