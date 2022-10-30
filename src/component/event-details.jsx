@@ -7,16 +7,21 @@ import Col from "react-bootstrap/Col";
 import Card from 'react-bootstrap/Card';
 import { Particle } from './Particle';
 import image from "../image/dummy.png";
+import { useParams } from "react-router-dom";
+import data from "./data";
 
 export default function EventDetails(props) {
-    
+   
+    let k=useParams()
+    let x=data[k.id-1]
+    console.log(data)
   return (
     <div>
          
       <Navigation />
         <div className="container-fluid pad">
             <div className="row r1 text-center">
-                <h1 className="gradient-text" style={{fontSize : '50px'}}>{props.data}</h1>
+                <h1 className="gradient-text" style={{fontSize : '50px'}}>{x.event}</h1>
             </div><br></br>
             <div className="row text-center">
                 <div class="col">
@@ -24,32 +29,32 @@ export default function EventDetails(props) {
                     fontSize : '22px'
                 
                 }}>Timing</h6>
-                    <p className="gradient-text">11.00 AM</p>
+                    <p className="gradient-text">{x.time}</p>
                 </div>
                 <div class="col">
                     <h6 style={{color : 'white',
                 fontSize : '22px'
                 }}>Venue</h6>
-                    <p className="gradient-text">R.M Block</p>
+                    <p className="gradient-text">{x.venue}</p>
                 </div>
             </div>
             <div className="row ">
-                <p style={{color : 'white'}} className="txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum is
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an  Lorem          
-                     </p>
+                <p style={{color : 'white'}} className="txt">{x.detail}</p>
             </div><br></br>
             <div className="row">
                 <div class="card c" style={{marginLeft:'auto',marginRight:'auto'}}>
                     <div class="card-body">
                         <h4 class="card-title gradient-text">Rules and Regulations</h4>
-                        <h6 class="card-text" style={{color : 'whitesmoke'}}>
+                    <h6 class="card-text" style={{color : 'whitesmoke'}}>
                         <ul>
-<li>                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-   <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>   
-    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</li>                
-                    </ul>                            </h6>
+                            {
+                                (x.rules.map((data1)=>
+                                <li>{data1}</li>
+
+                                ))
+                            }
+                        </ul>
+                    </h6>
                     </div>
                 </div>
             </div>
