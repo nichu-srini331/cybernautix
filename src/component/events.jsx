@@ -36,7 +36,7 @@ export default function Events() {
           
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/1" className="link">
                 <div className="grid circle-1">
                   <img src={image6} alt="" />
                   <div className="align"><h2 className="evename">
@@ -49,7 +49,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/2" className="link">
                 <div className="grid circle-1">
                   <img src={image3} alt="" />
                   <div className="align"><h2 className="evename">
@@ -63,7 +63,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/3" className="link">
                 <div className="grid circle-1">
                   <img src={nimage3} alt="" />
                   <div className="align"><h2 className="evename">
@@ -77,7 +77,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/4" className="link">
                 <div className="grid circle-1">
                   <img src={image5} alt="" />
                   <div className="align"><h2 className="evename">
@@ -91,7 +91,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/5" className="link">
                 <div className="grid circle-1">
                   <img src={image} alt="" />
                   <div className="align"><h2 className="evename">
@@ -105,7 +105,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/6" className="link">
                 <div className="grid circle-1">
                   <img src={nimage1} alt="" />
                   <div className="align"><h2 className="evename">
@@ -119,7 +119,7 @@ export default function Events() {
 
             <div class="col-sm-12 col-md-12 col-lg-12 pad ">
             <Fade left >
-              <Link to="/events-dPy" className="link">
+              <Link to="/events/7" className="link">
                 <div className="grid circle-1">
                   <img src={nimage2} alt="" />
                   <div className="align"><h2 className="evename">
