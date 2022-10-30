@@ -36,7 +36,7 @@ export default function Events() {
           
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/1" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={image6} alt="" />
                   <div className="align"><h2 className="evename">
@@ -46,10 +46,10 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
-            
+
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/2" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={image3} alt="" />
                   <div className="align"><h2 className="evename">
@@ -63,7 +63,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/3" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={nimage3} alt="" />
                   <div className="align"><h2 className="evename">
@@ -77,7 +77,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/4" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={image5} alt="" />
                   <div className="align"><h2 className="evename">
@@ -91,7 +91,7 @@ export default function Events() {
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/5" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={image} alt="" />
                   <div className="align"><h2 className="evename">
@@ -102,24 +102,10 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
-          </div>
-        
-        </div>
-      </div>
-     
-      
-     
-      <div style={{ marginTop: "4%" }}>
-      <Fade left >
-        <h2 className="eh1">Non Technical Events </h2>
-        </Fade>
-        <div class="container ">
-       
-     
 
             <div class="col-sm-6 col-md-6 col-lg-4 pad ">
             <Fade left >
-              <Link to="/events/6" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={nimage1} alt="" />
                   <div className="align"><h2 className="evename">
@@ -133,7 +119,7 @@ export default function Events() {
 
             <div class="col-sm-12 col-md-12 col-lg-12 pad ">
             <Fade left >
-              <Link to="/events/7" className="link">
+              <Link to="/events-dPy" className="link">
                 <div className="grid circle-1">
                   <img src={nimage2} alt="" />
                   <div className="align"><h2 className="evename">
@@ -144,59 +130,26 @@ export default function Events() {
               </Link>
               </Fade>
             </div>
-            <div class="s1 col-sm-6 col-md-6 col-lg-4 pad">
-            <Fade left >
-            <Link to="/events-dPy" className="link">
-              <div class="grid circle-1 ">
-                <img src={nimage3} alt="" />
-                <h2 className="evename">
-                  Treasure <br /> Hunt
-                </h2>
-              </div>
-              </Link>
-              </Fade>
-            </div>
+            
+         
           
+          
+         
+            
+         
+           
 
-          
         
 
-         
-
           
-            <div class="s1 col-sm-6 col-md-6 col-lg-4 pad">
-            <Fade left >
-            <Link to="/events-dPy" className="link">
-              <div class="grid circle-1 ">
-                <img src={nimage4} alt="" />
-                <h2 className="evename">
-                  
-                  Cubinix <br />
-                  Solving
-                </h2>
-              </div>
-              </Link>
-              </Fade>
-            </div>
-
-            <div class="s1  col-lg-4 pad">
-            <Fade left >
-            <Link to="/events-dPy" className="link">
-              <div class="grid circle-1 ">
-                <img src={nimage5} alt="" />
-                <h2 className="evename">
-                  Talent <br /> Gig
-                </h2>
-              </div>
-              </Link>
-              </Fade>
-            </div>
           </div>
-         
-      
+        
         </div>
       </div>
+     
       
+     
+    
          
        
       
