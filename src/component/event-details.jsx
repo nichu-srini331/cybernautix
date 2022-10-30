@@ -54,7 +54,7 @@ export default function EventDetails(props) {
                 </div>
             </div>
             <div className="evebtn">
-            <button className='dbtn1'>Register</button>
+            <button className='dbtn1' style={{marginTop : '2%'}}>Register</button>
             </div>
         </div>
         <Particle/>

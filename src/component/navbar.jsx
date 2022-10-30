@@ -15,8 +15,8 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto hc1">
-            <Nav.Link href="#home"><span className='hp1'>Home</span></Nav.Link>
-            <Nav.Link href="events"><span className='hp1'>Events</span></Nav.Link>
+            <Nav.Link href="/"><span className='hp1'>Home</span></Nav.Link>
+            <Nav.Link href="/events"><span className='hp1'>Events</span></Nav.Link>
             <Nav.Link href="#link"><span className='hp1'>Registerations</span></Nav.Link>
             <Nav.Link href="#link"><span className='hp1'>Contact </span></Nav.Link>
           </Nav>
