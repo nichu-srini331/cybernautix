@@ -32,8 +32,9 @@ export default function Home() {
         <p className='hp4'>CYBERNAUTIX’22</p>
         </div>
        
-        <div className='htable'>
-            <div className='htbcont'>
+        <div className='row mb-3 htabl text-center'>
+          <div className='col-md-3'></div>
+            <div className='col-md-2 htbcont'>
                 <p className='htp1'><lord-icon
                 src="https://cdn.lordicon.com/uutnmngi.json"
                 trigger="loop"
@@ -44,11 +45,9 @@ export default function Home() {
                 <p className='htp2'>14 November 2022</p>
 
             </div>
-            <div className='hline'>
-
-            </div>
-            <div className='htbcont'>
-               <p className='htp1'><lord-icon
+            
+            <div className='col-md-2 htbcont'>
+               <p className=' htp1'><lord-icon
                 src="https://cdn.lordicon.com/isdxbcqi.json"
                 colors="primary:#00ff66,secondary:#00ff66"
                 trigger="loop"
@@ -56,10 +55,8 @@ export default function Home() {
               ></lord-icon></p>
                 <p className='htp2'>Free</p>
             </div>
-            <div className='hline'>
-
-            </div>
-            <div className='htbcont'>
+            
+            <div className='col-md-2 htbcont'>
                <p className='htp1'><lord-icon
                 src="https://cdn.lordicon.com/elzslyvl.json"
                 trigger="loop"
@@ -69,20 +66,24 @@ export default function Home() {
               ></lord-icon></p>
                 <p className='htp2'>R.M.K Engineering College</p>
             </div>
+            <div className='col-md-3'></div>
 
         </div>
       
+       </div>
+       <div className='row'>
+       <Timer />
        </div>
         {/* <div className='hcimg'>
             <img src={circuit} className="himg2"/>
 
             
         </div> */}
-        <Timer />
+        
 
-        <Link to="/events" className="link">
+        {/* <Link to="/events" className="link">
         <button className='hbtn1'>EVENT</button>
-        </Link>
+        </Link> */}
         
         
     </div>

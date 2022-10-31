@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import moment from 'moment';
 import "./Timer.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 class CountDown extends Component {
   constructor(props) {
     super(props);
@@ -51,31 +51,33 @@ class CountDown extends Component {
   render() {
     const { days, seconds, hours, minutes } = this.state;
     return (
-      <div id="countdown">
-        <div className="col-4">
+      <div class="" id="countdown">
+        <div className="containr">
+        <div className="row">
+          <div className="col-3">
           <div className="box">
             <p id="day">{days}</p>
             <span className="text">Days</span>
           </div>
-        </div>
-        <div className="col-4">
+          </div>
+          <div className="col-3">
           <div className="box">
             <p id="hour">{hours}</p>
             <span className="text">Hours</span>
           </div>
-        </div>
-        <div className="col-4">
-          <div className="box">
+          </div>
+          <div className="col-3"><div className="box">
             <p id="minute">{minutes}</p>
             <span className="text">Minutes</span>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="box">
+          </div></div>
+          <div className="col-3"><div className="box">
             <p id="second">{seconds}</p>
             <span className="text">Seconds</span>
-          </div>
+          </div></div>
         </div>
+        </div>
+        
+        
       </div>
     );
   }

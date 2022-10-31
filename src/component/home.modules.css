@@ -14,6 +14,13 @@
   margin-left: 50%;
  
 }
+.htbcont{
+    border-right: solid 2px aliceblue;
+    
+}
+.htbcont:nth-last-child(-n+2) {
+    border-right-color: transparent;
+  }
 .hcont{
     display: flex;
 }
@@ -82,7 +89,7 @@
 
 }
 .htp2{
-   color: #00FF66;
+   color: white;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -151,6 +158,10 @@ body {
 @media only screen and (max-width: 600px) {
     .container{
         margin-bottom: -11%;
+    }
+    .htbcont{
+        border-right: none;
+        
     }
     .hp4{
         font-size: 200%;
