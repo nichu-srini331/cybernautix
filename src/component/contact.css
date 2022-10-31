@@ -34,6 +34,7 @@
 }
 .cttxt{
     display: flex;
+    margin-top: 7%;
 
 }
 .ctcp1{
@@ -149,9 +150,21 @@
     
     
   }
-
+  lord-icon {
+    margin-top: -2%;
+    height: 100px;
+    width: 100px;
+}
   @media only screen and (max-width: 600px) {
     
+    lord-icon {
+      margin-top: 7%;
+      height: 75px;
+      width: 75px;
+  }
+  lord-icon#loc{
+    margin-top: 12%;
+  }
 
   }
   

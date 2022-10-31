@@ -13,6 +13,7 @@ import { Particle } from './Particle';
 import { Link } from "react-router-dom";
 import Timer from "./Countdown/Timer";
 
+
 export default function Home() {
   return (
     <div className='container-fluid home'>

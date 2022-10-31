@@ -29,11 +29,11 @@ export default function Contact() {
             
                 <div className='cttxt'>
                 <lord-icon
+                id="loc"
                 src="https://cdn.lordicon.com/elzslyvl.json"
                 trigger="hover"
                 colors="primary:#4be1ec,secondary:#cb5eee"
                 state="hover-spin"
-                style={{ width: "100px", height: "100px" }}
               ></lord-icon>
                     {/* <div className="hover-fx">
                       <div className="si-globe">
