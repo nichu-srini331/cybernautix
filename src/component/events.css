@@ -170,7 +170,7 @@ font-size: 30px;
 }
 @media only screen and (max-width: 600px) {
 
-  h2#pp {
+h2#pp {
     margin-left: -5%;
 }
 h2#TH {
@@ -188,6 +188,12 @@ h2#Con {
 
 .evename {
   color: rgba(255,255,255,0.4);
+}
+.eh1{
+  margin-top: 7%;
+}
+.gradient-text{
+  margin-top: 7%;
 }
 
 
