@@ -11,7 +11,7 @@ export default function Navigation() {
     <div class="">
         <Navbar expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"><img src={logo} className="hlogo"/></Navbar.Brand>
+        <Navbar.Brand  href="/"><img src={logo} className="hlogo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto hc1">
