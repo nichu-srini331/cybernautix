@@ -170,12 +170,15 @@ font-size: 30px;
 }
 @media only screen and (max-width: 600px) {
 
+img#calender{
+  opacity: 0.9;
+}
 h2#pp {
     margin-left: -5%;
 }
 h2#TH {
   margin-left: -7%;
-  margin-top: -44%;
+  margin-top: -46%;
 }
 h2#OC {
   margin-left: -3%;
@@ -199,10 +202,10 @@ h2#Con {
 
 
 }
-h2#Con {
+#Con {
   margin-top: -58%;
 }
-h2#TH {
+#TH {
   margin-top: -60%;
 }
 

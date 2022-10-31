@@ -11,6 +11,7 @@ export default function Navigation() {
     <div class="">
         <Navbar expand="lg" variant="dark">
       <Container>
+        <Navbar.Brand  href="/"><img src="https://github.com/nitinmano/image-store/blob/main/CYBERNAUTIX.png?raw=true" className="hlogo"/></Navbar.Brand>
         <Navbar.Brand  href="/"><img src={logo} className="hlogo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

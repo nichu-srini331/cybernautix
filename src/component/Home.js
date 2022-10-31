@@ -35,14 +35,15 @@ export default function Home() {
         <div className='row mb-3 htabl text-center'>
           <div className='col-md-3'></div>
             <div className='col-md-2 htbcont'>
-                <p className='htp1'><lord-icon
-                src="https://cdn.lordicon.com/uutnmngi.json"
-                trigger="loop"
-                colors="primary:#00ff66,secondary:#00ff66"
-                state="loop"
-                style={{ width: "75px", height: "75px" }}
-              ></lord-icon></p>
-                <p className='htp2'>14 November 2022</p>
+                <p className='htp1'>
+
+                <img id="calender" src="https://github.com/nitinmano/image-store/blob/main/Cal-Green.gif?raw=true" alt="logo" width="55px" height="55px" />
+
+
+
+
+                </p>
+                <p className='htp2' >14 November 2022</p>
 
             </div>
             
