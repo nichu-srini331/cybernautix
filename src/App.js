@@ -5,8 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Events from './component/events';
 import EventDetails from './component/event-details';
-
 import Contact from './component/Contact';
+
+
 function App() {
   return (
     <div className="App">

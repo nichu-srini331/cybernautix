@@ -67,7 +67,7 @@ font-size: 30px;
     width:250px !important;
     height:250px !important;
     border-radius: 50%;
-    border:10px solid #00FF66;
+    border:5px solid #00FF66;
     box-shadow: 6px 6px 60px rgba(4, 248, 53, 0.4);
     
     opacity: 1;
@@ -198,6 +198,12 @@ h2#Con {
 
 
 
+}
+h2#Con {
+  margin-top: -58%;
+}
+h2#TH {
+  margin-top: -60%;
 }
 
 
