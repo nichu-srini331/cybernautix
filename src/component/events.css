@@ -168,6 +168,32 @@ font-size: 30px;
  
   
 }
+@media only screen and (max-width: 600px) {
+
+  h2#pp {
+    margin-left: -5%;
+}
+h2#TH {
+  margin-left: -7%;
+  margin-top: -44%;
+}
+h2#OC {
+  margin-left: -3%;
+}
+
+h2#Con {
+  margin-left: -5%;
+  margin-top: -45%;
+}
+
+.evename {
+  color: rgba(255,255,255,0.4);
+}
+
+
+
+}
+
 
 
 

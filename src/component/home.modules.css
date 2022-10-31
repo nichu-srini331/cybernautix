@@ -23,11 +23,11 @@
 }
 .hp2{
     color: rgb(241, 236, 228);
-    font-size: 23px !important;
+    font-size: 23px;
     font-weight: 20px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 700px !important; 
+    width: 700px ; 
     text-align: center;
    
 
@@ -94,7 +94,7 @@
     border-radius: 20px;
     margin-left: 20%;
     border: none;
-    width: 60% !important;
+    width: 66% !important;
     margin-top: -3%;
 }
 
@@ -132,4 +132,27 @@
             text-decoration: none;
             box-shadow: 0 0 20px #eee;
 
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-bottom: -11%;
+    }
+    .hp4{
+        font-size: 200%;
+    }
+    .hp2{
+        width: auto;
+        font-size: 150%;
+    
+    }
+    .hp1{
+        margin: 0%;
+        justify-content: end;
+    }
+    .nav-link{
+        display: flex !important;
+        justify-content: end;
+        
+
+    }
 }

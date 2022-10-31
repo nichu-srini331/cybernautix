@@ -39,7 +39,7 @@ export default function Events() {
               <Link to="/events/1" className="link">
                 <div className="grid circle-1">
                   <img src={image6} alt="" />
-                  <div className="align"><h2 className="evename">
+                  <div className="align"><h2 id="pp" className="evename">
                     Paper <br /> Presentation                  </h2></div>
                   
                 </div>
@@ -66,7 +66,7 @@ export default function Events() {
               <Link to="/events/3" className="link">
                 <div className="grid circle-1">
                   <img src={nimage3} alt="" />
-                  <div className="align"><h2 className="evename">
+                  <div className="align"><h2 id="TH" className="evename">
                    Treasure hunt
                   </h2></div>
                   
@@ -94,7 +94,7 @@ export default function Events() {
               <Link to="/events/5" className="link">
                 <div className="grid circle-1">
                   <img src={image} alt="" />
-                  <div className="align"><h2 className="evename">
+                  <div className="align"><h2 id="OC" className="evename">
                     Optimized <br /> Coding
                   </h2></div>
                   
@@ -122,7 +122,7 @@ export default function Events() {
               <Link to="/events/7" className="link">
                 <div className="grid circle-1">
                   <img src={nimage2} alt="" />
-                  <div className="align"><h2 className="evename">
+                  <div className="align"><h2 id="Con" className="evename">
                     Connextions
                   </h2></div>
                   
