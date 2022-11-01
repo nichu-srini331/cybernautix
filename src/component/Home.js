@@ -36,6 +36,8 @@ export default function Home() {
         <div className='row mb-3 htabl text-center'>
           <div className='col-md-3'></div>
             <div className='col-md-2 htbcont'>
+            <Link to="/events">
+
                 <p className='htp1'>
 
                 <img id="calender" src="https://github.com/nitinmano/image-store/blob/main/Cal-Green.gif?raw=true" alt="logo" width="55px" height="55px" />
@@ -44,8 +46,9 @@ export default function Home() {
 
 
                 </p>
-                <p className='htp2' >14 November 2022</p>
+                </Link>
 
+                <p className='htp2' >14 November 2022</p>
             </div>
             
             <div className='col-md-2 htbcont'>
@@ -59,6 +62,7 @@ export default function Home() {
             </div>
              
             <div className='col-md-2 htbcont'>
+              <Link to="/Contactus">
                <p className='htp1'><lord-icon
                 src="https://cdn.lordicon.com/elzslyvl.json"
                 trigger="loop"
@@ -66,6 +70,8 @@ export default function Home() {
                 state="hover-spin"
                 style={{ width: "75px", height: "75px" }}
               ></lord-icon></p>
+                            </Link>
+
                 <p className='htp2'>R.M.K Engineering College</p>
             </div>
             <div className='col-md-3'></div>
