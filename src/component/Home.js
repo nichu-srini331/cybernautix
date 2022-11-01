@@ -55,9 +55,9 @@ export default function Home() {
                 trigger="loop"
                 style={{ width: "75px", height: "75px" }}
               ></lord-icon></p>
-                <p className='htp2'>Free</p>
+                <p className='htp2'>Free Entry</p>
             </div>
-            
+             
             <div className='col-md-2 htbcont'>
                <p className='htp1'><lord-icon
                 src="https://cdn.lordicon.com/elzslyvl.json"

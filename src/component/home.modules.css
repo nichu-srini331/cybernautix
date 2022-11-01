@@ -153,9 +153,10 @@ img#calender {
 body {
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background: url(https://i.pinimg.com/originals/e5/e0/40/e5e0404d39c64c0abf8a43deff032645.gif);
+    background-repeat: repeat;
   background-position: top top;
-  background-size: cover;
+
   margin: 0;
 }
 
