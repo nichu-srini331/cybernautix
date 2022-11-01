@@ -8,7 +8,6 @@ import EventDetails from './component/event-details';
 import Contact from './component/Contact';
 import Aos from 'aos';
 import {useEffect} from 'react';
-import {Sugar} from 'react-preloaders2';
 
 function App() {
   useEffect(() => {
@@ -36,7 +35,6 @@ function App() {
                     <Route path="/contactus" element={<Contact/>} />
                 </Routes>
             </Router>
-            <Sugar  background="rgba(23,23,23,0.9)" color="#00ff66"  />            
      </>
     
     </div>
