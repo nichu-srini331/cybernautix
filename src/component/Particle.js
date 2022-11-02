@@ -59,7 +59,7 @@ export const Particle = () => {
             distance:100,
             enable: true,
             opacity: 0.5,
-            width: 3,
+            width: 2,
           },
           collisions: {
             enable: false,
@@ -71,7 +71,7 @@ export const Particle = () => {
               default: "bounce",
             },
             random: false,
-            speed: 4,
+            speed: 3,
             straight: false,
           },
           number: {
@@ -88,7 +88,7 @@ export const Particle = () => {
             type: "square",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,

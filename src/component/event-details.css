@@ -33,13 +33,12 @@
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 6px 6px 60px rgba(4, 248, 53, 0.4);
+    box-shadow: 6px 6px 60px rgba(4, 248, 53, 0.2);
     border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
-
 
 }
 .dbtn1:hover{
