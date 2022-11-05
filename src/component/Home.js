@@ -82,6 +82,11 @@ export default function Home() {
        <div className='row'>
        <Timer />
        </div>
+       <a id="bus" href="https://forms.gle/zcuCb4UQPD6TCoZh7">
+        <div className="evebtn">
+            <button className='dbtn1' style={{marginTop : '2%'}}>Register</button>
+        </div>
+        </a>
         {/* <div className='hcimg'>
             <img src={circuit} className="himg2"/>
 

@@ -38,7 +38,7 @@ export default function Events() {
             <Fade left >
               <Link to="/events/1" className="link">
                 <div className="grid circle-1">
-                  <img src={image6} alt="" />
+                  <img src="https://www.ngoaingucongdong.com/wp-content/uploads/2021/01/Seminar-la-gi-anh-dai-dien.jpg" alt="" />
                   <div className="align"><h2 id="pp" className="evename">
                     Paper <br /> Presentation                  </h2></div>
                   
@@ -61,23 +61,11 @@ export default function Events() {
               </Fade>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
+            
+
+            <div class="col-sm-6 col-md-6 col-lg-4 pad">
             <Fade left >
               <Link to="/events/3" className="link">
-                <div className="grid circle-1">
-                  <img src={nimage3} alt="" />
-                  <div className="align"><h2 id="TH" className="evename">
-                   Treasure hunt
-                  </h2></div>
-                  
-                </div>
-              </Link>
-              </Fade>
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
-            <Fade left >
-              <Link to="/events/4" className="link">
                 <div className="grid circle-1">
                   <img src={image5} alt="" />
                   <div className="align"><h2 className="evename">
@@ -89,9 +77,9 @@ export default function Events() {
               </Fade>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
+            <div class="col-sm-6 col-md-6 col-lg-7 pad ">
             <Fade left >
-              <Link to="/events/5" className="link">
+              <Link to="/events/4" className="link">
                 <div className="grid circle-1">
                   <img src={image} alt="" />
                   <div className="align"><h2 id="OC" className="evename">
@@ -103,27 +91,15 @@ export default function Events() {
               </Fade>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
-            <Fade left >
-              <Link to="/events/6" className="link">
-                <div className="grid circle-1">
-                  <img src={nimage1} alt="" />
-                  <div className="align"><h2 className="evename">
-                    Poetry <br /> Writing
-                  </h2></div>
-                  
-                </div>
-              </Link>
-              </Fade>
-            </div>
+            
 
-            <div class="col-sm-12 col-md-12 col-lg-12 pad ">
+            <div class="col-sm-6 col-md-6 col-lg-2 pad  ">
             <Fade left >
-              <Link to="/events/7" className="link">
+              <Link to="/events/5" className="link">
                 <div className="grid circle-1">
-                  <img src={nimage2} alt="" />
+                  <img src="https://m.media-amazon.com/images/S/mms-media-storage-prod/final/BrandPosts/brandPosts/4250a5cb-93bb-4419-9a04-1818c06f2468/5e2957f5-6ae5-4dbc-aff1-43811e948006/media._SL480_.jpeg" alt="" />
                   <div className="align"><h2 id="Con" className="evename">
-                    Connextions
+                    Suprise Events
                   </h2></div>
                   
                 </div>

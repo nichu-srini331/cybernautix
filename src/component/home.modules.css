@@ -153,9 +153,7 @@ img#calender {
 body {
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://i.pinimg.com/originals/e5/e0/40/e5e0404d39c64c0abf8a43deff032645.gif);
-    background-repeat: repeat;
-  background-position: top top;
+
 
   margin: 0;
 }
@@ -186,4 +184,13 @@ body {
         
 
     }
+    .ctcp1{
+        height: 10px;
+    }
+}
+ul {
+    line-height: 200%;
+    }
+.hlogo{
+    opacity: unset;
 }

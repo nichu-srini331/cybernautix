@@ -189,7 +189,18 @@
      
 
   }
-  
+  p.ctcp1.header {
+    margin-left: -1%;
+}
+div#cont {
+  margin-top: 15%;
+}
+
+a#bus {
+  text-decoration: none;
+}
+
+
 
 
   
