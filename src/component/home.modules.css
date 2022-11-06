@@ -26,7 +26,7 @@
 }
 
 .head{
-    margin-top: 35px !important;
+    margin-top: 15px !important;
 }
 .hp2{
     color: rgb(241, 236, 228);
@@ -36,9 +36,18 @@
     margin-right: auto !important;
     width: 700px ; 
     text-align: center;
-   
-
 }
+
+.hh2{
+    color: rgb(241, 236, 228);
+    font-size: 40px;
+    font-weight: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 700px ; 
+    text-align: center;
+}
+
 .hp1{
     color: antiquewhite;
     font-size: 20px;
