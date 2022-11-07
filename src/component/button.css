@@ -9,7 +9,7 @@
   min-width: 15%;
   min-height: 60px;
   font-family: 'Nunito', sans-serif;
-  font-size: 22px;
+  font-size: unset;
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;

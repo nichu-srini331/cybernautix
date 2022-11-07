@@ -14,7 +14,7 @@ import { Particle } from './Particle';
 import { Link } from "react-router-dom";
 import Timer from "./Countdown/Timer";
 import "./button.css";
-import Footer from './Footer';
+import SimpleBottomNavigation from './Mob';
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
         <div className='row mb-3 htabl text-center'>
           <div className='col-md-3'></div>
             <div className='col-md-2 htbcont'>
-            <Link to="/events">
+            {/* <Link to="/events"> */}
 
                 <p className='htp1'>
 
@@ -50,7 +50,7 @@ export default function Home() {
 
 
                 </p>
-                </Link>
+                {/* </Link> */}
 
                 <p className='htp2' >14 November 2022</p>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
         {/* <Link to="/events" className="link">
         <button className='hbtn1'>EVENT</button>
         </Link> */}
-        
+        <SimpleBottomNavigation/>
         
     </div>
     
