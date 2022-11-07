@@ -39,6 +39,9 @@ export default function Navigation() {
                             <Nav.Link href="/contactus">
                                 <span className="hp1">Contact</span>
                             </Nav.Link>
+                            <Nav.Link href="/travel">
+                                <span className="hp1">Bus Routes</span>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

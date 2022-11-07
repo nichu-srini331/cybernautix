@@ -8,6 +8,7 @@ import EventDetails from './component/event-details';
 import Contact from './component/Contact';
 import Aos from 'aos';
 import {useEffect} from 'react';
+import Travel from './component/travel';
 
 function App() {
   useEffect(() => {
@@ -22,7 +23,9 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/events" element={<Events />} />
                     <Route path="/events/:id" element={<EventDetails />} />
-                    <Route path="/contactus" element={<Contact/>} />
+            <Route path="/contactus" element={<Contact />} />
+            <Route path="/travel" element={<Travel/>} />
+
                 </Routes>
             </Router>
      </>

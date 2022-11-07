@@ -39,7 +39,5 @@ let data=[
         detail:"Whats the fun without a surprize, join us on 14th November to witness surprize events and fun events.",
         rules:["Rules will be announced on the day of the event."]
 }
-
-    
 ]
 export default data
