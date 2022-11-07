@@ -31,6 +31,7 @@
 .hp2{
     color: rgb(241, 236, 228);
     font-size: 23px;
+    font-family: space;
     font-weight: 20px !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -39,6 +40,7 @@
    
 
 }
+
 .hp1{
     color: antiquewhite;
     font-size: 20px;
@@ -159,6 +161,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .wrap {
+        margin-top: 6%;
+    }
+    .button{
+        margin-top: 5% !important;
+        font-size: medium !important;
+        width: 50%;
+    }
     .container{
         margin-bottom: -11%;
     }
@@ -171,7 +181,7 @@ body {
     }
     .hp2{
         width: auto;
-        font-size: 150%;
+        font-size: 150% !important;
     
     }
     .hp1{
@@ -193,4 +203,23 @@ ul {
     }
 .hlogo{
     opacity: unset;
+}
+center{
+    margin:0%;
+}
+.footer-container{
+    margin-top: 5% !important;
+    background-color: rgba(0,0,0,0) !important;
+    margin-bottom: 0%;
+    width: 100% !important;
+    padding: 0% !important;
+}
+.first-row{
+    opacity: .6;
+
+    justify-content: center !important;
+}
+a.resources{
+    font-size: larger;
+    text-decoration: none !important;
 }

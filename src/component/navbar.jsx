@@ -13,7 +13,6 @@ export default function Navigation() {
         <Navbar expand="lg" variant="dark">
       <Container>
         <Navbar.Brand  href="/contactus"><img class="hed-img" src="https://github.com/nitinmano/image-store/blob/main/CYBERNAUTIX.png?raw=true" className="hlogo"/></Navbar.Brand>
-        <Navbar.Brand  href="/"><img class="hed-img" src={logo} className="hlogo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto hc1">

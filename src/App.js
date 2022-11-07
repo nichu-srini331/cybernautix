@@ -8,10 +8,11 @@ import EventDetails from './component/event-details';
 import Contact from './component/Contact';
 import Aos from 'aos';
 import {useEffect} from 'react';
+import Footer from './component/Footer';
 
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 200 });
   }, []);
 
   return (
@@ -19,9 +20,28 @@ function App() {
      <>
      <Router>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/events" element={<Events />} />
-                    <Route path="/events/:id" element={<EventDetails />} />
+                    <Route path="/" element={<> <Home />
+                    <Footer />
+                    </>
+                      
+                      
+                      
+                     } />
+                    <Route path="/events" element={<>
+                    <Events />
+                    <Footer />
+                  
+                  </>} />
+                    <Route path="/events/:id" element={
+                    <>
+                    
+                    
+                    <EventDetails />
+                    <Footer />
+                    </>
+                    
+                    
+                    } />
                     {/* <Route path="/events-dFlag" element={<EventDetails data="Capture the Flag" />} />
                     <Route path="/events-dBlind" element={<EventDetails data="Blind Coding" />} />
                     <Route path="/events-dUI" element={<EventDetails data="UI Designing" />} />
@@ -35,6 +55,7 @@ function App() {
                     <Route path="/contactus" element={<Contact/>} />
                 </Routes>
             </Router>
+            
      </>
     
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "./home.modules.css"
+
 import "../text/future-earth.ttf"
 import circuit from "../image/pngwing.com.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +13,8 @@ import Navigation from './navbar';
 import { Particle } from './Particle';
 import { Link } from "react-router-dom";
 import Timer from "./Countdown/Timer";
-
+import "./button.css";
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -21,8 +23,10 @@ export default function Home() {
         <Navigation/>
        <div className='row'>
         <div className='head'>
-        <p className='hp2'>DEPARTMENT OF INFORMATION TECHNOLOGY <br></br>
-        Presents</p>
+        <p className='hp2' style={{fontSize: "35px"}}>RMK ENGINEERING COLLEGE <br></br></p>
+
+        <p className='hp2'>DEPARTMENT OF INFORMATION TECHNOLOGY <br></br></p>
+        <p className='hp2' style={{fontSize: "20px"}}> Presents</p>
         
         </div>
         <div className='col-4'>
@@ -72,7 +76,7 @@ export default function Home() {
               ></lord-icon></p>
                             </Link>
 
-                <p className='htp2'>R.M.K Engineering College</p>
+                <p className='htp2'>R.M.K. Engineering College</p>
             </div>
             <div className='col-md-3'></div>
 
@@ -80,12 +84,21 @@ export default function Home() {
       
        </div>
        <div className='row'>
-       <Timer />
+       <Timer/>
        </div>
        <a id="bus" href="https://forms.gle/zcuCb4UQPD6TCoZh7">
-        <div className="evebtn">
+
+
+       <div class="wrap">
+  <button class="button"style={{marginTop : '2%'}}> Register
+  </button>
+</div>
+
+
+        {/* <div className="evebtn">
             <button className='dbtn1' style={{marginTop : '2%'}}>Register</button>
         </div>
+        </a> */}
         </a>
         {/* <div className='hcimg'>
             <img src={circuit} className="himg2"/>
@@ -100,5 +113,6 @@ export default function Home() {
         
         
     </div>
+    
   )
 }

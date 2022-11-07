@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./contact.css";
 import { Particle } from "./Particle";
-import ClipLoader from "react-spinners/ClipLoader";
+import Footer from "./Footer";
 
 export default function Contact() {
   const [loading, setLoading] = useState(true);
@@ -26,21 +26,11 @@ export default function Contact() {
           <Col lg={6}>
             <div className="cd1">
               <div className="loader">
-                <ClipLoader
-                  className="loader"
-                  loading={loading}
-                  color="#00FF66"
-                  aria-label="Loading Spinner"
-                  size={150}
-                  data-testid="loader"
-                />
               </div>
               <iframe
                 onLoad={onLoad}
                 className="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8975604743096!2d80.13891621464958!3d13.356645390604042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d807de229f987%3A0x11cc13e2927bfabc!2sR.M.K.%20Engineering%20College!5e0!3m2!1sen!2sin!4v1666782180674!5m2!1sen!2sin"
-                width="600"
-                height="450"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
@@ -70,7 +60,7 @@ export default function Contact() {
                     </div> */}
 
                 <p className="ctcp1">
-                  R.M.K Engineering College, Kavaraipettai, Gumudipoondi.
+                RSM Nagar, Gummidipoondi, Taluk, Kavaraipettai, Tamil Nadu 601206.
                 </p>
               </div>
 
@@ -81,7 +71,7 @@ export default function Contact() {
                   style={{ width: "75px", height: "75px" }}
                 ></lord-icon>
 
-                <p className="ctcp1">cybernautix2022@gmail.com</p>
+                <p className="ctcp1">events.it@rmkec.ac.in</p>
               </div>
 
               <div className="cttxt">
@@ -97,6 +87,7 @@ export default function Contact() {
               <a id="bus" href="https://chat.whatsapp.com/DBC6TIRs1nF4dbCEp9xzeY" target="_blank">
               <div className="cttxt">
                 <lord-icon
+                  id="lob"
                    src="https://cdn.lordicon.com/xgvwytap.json"
                   trigger="hover"
                   style={{ width: "75px", height: "75px" }}
@@ -112,10 +103,11 @@ export default function Contact() {
 
 
 
-
+                    
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
