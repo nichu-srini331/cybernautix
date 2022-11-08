@@ -29,7 +29,7 @@
     margin-top: 35px !important;
 }
 .hp2{
-    color: rgb(241, 236, 228);
+    color: snow;
     font-size: 23px;
     font-family: space;
     font-weight: 20px !important;
@@ -161,6 +161,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    p#cal {
+        margin-bottom: 19px !important;
+    }
     a:hover{
         color:unset !important;
     }
@@ -249,4 +252,23 @@ a.MuiButtonBase-root {
     /* background-color: transparent !important; */
     background-color: rgba(0,0,0,0.5) !important;
 
+}
+.htp1{
+    margin-bottom: 0%;
+}
+p#cal {
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+div#offcanvasNavbar-expand-xxl {
+    background: rgba(0,0,0,0) !important;
+}
+.btn-close{
+   background:white url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+}
+
+button.btn-close {
+    margin-left: 86% !important;
+    /* padding: 12px 17px 4px 3px; */
+    /* margin-top: 21px; */
 }

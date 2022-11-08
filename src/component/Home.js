@@ -37,7 +37,7 @@ export default function Home() {
             <div className='col-md-2 htbcont'>
             {/* <Link to="/events"> */}
 
-                <p className='htp1'>
+                <p className='htp1' id="cal">
 
                 <img id="calender" src="https://github.com/nitinmano/image-store/blob/main/Cal-Green.gif?raw=true" alt="logo" width="55px" height="55px" />
 

@@ -7,12 +7,11 @@ import "./navbar.css";
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 import HomeIcon from '@mui/icons-material/Home';
 import DirectionsBusFilledIcon from '@mui/icons-material/DirectionsBusFilled';import { Link } from "react-router-dom";
 import Paper from '@mui/material/Paper';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
-
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 export default function Mob() {
   const [value, setValue] = React.useState(-1);
@@ -48,7 +47,7 @@ export default function Mob() {
 
             <BottomNavigationAction label="Home" icon={<HomeIcon />} component={Link} to="/" />            
             <BottomNavigationAction label="Contact" icon={<ContactPageIcon />} component={Link} to="/contactus" />
-            <BottomNavigationAction label="Events" icon={<FavoriteIcon />} component={Link} to="/events" />
+            <BottomNavigationAction label="Events" icon={<EmojiEventsIcon />} component={Link} to="/events" />
             <BottomNavigationAction label="Bus Route" icon={<DirectionsBusFilledIcon />} component={Link} to="/bus"/>
 
           </BottomNavigation>
