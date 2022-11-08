@@ -12,9 +12,9 @@ export default function Travel(props) {
             {busRoute.map((bus, index) => (
                 <div class="card-body">
                     <h4 class="card-title gradient-text">{bus.busStarting}</h4>
-                    <h5>{"Bus Number: "+bus.busNumber}</h5>
+                    <h5 className="h5">{"Bus Number: "+bus.busNumber}</h5>
                     <h6 class="card-text" style={{ color: "whitesmoke" }}>
-                        <ul>{bus.busRoutes}</ul>
+                        <ul className="ul" >{bus.busRoutes}</ul>
                     </h6>
 
                     

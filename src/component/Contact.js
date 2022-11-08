@@ -99,7 +99,10 @@ export default function Contact() {
               </a>
 
             </div>
-            <Mob />
+            <div id="hod">
+              hi
+            </div>
+            
 
 
 
