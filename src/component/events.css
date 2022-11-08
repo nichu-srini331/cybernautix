@@ -209,7 +209,11 @@ h2#Con {
   margin-top: -60%;
 }
 
-
+svg.whatsapp {
+  height: 30px;
+  width: 30px;
+  margin-right: 4%;
+}
 
 
 
