@@ -110,7 +110,7 @@ export default function Home() {
         {/* <Link to="/events" className="link">
         <button className='hbtn1'>EVENT</button>
         </Link> */}
-        <SimpleBottomNavigation/>
+        
         
     </div>
     

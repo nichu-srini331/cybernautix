@@ -5,8 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./contact.css";
 import { Particle } from "./Particle";
-import Footer from "./Footer";
-
+import Mob from "./Mob";
 export default function Contact() {
   const [loading, setLoading] = useState(true);
   function onLoad() {
@@ -100,6 +99,7 @@ export default function Contact() {
               </a>
 
             </div>
+            <Mob />
 
 
 
@@ -107,7 +107,6 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   );
 }

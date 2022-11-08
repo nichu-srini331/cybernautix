@@ -161,8 +161,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    a:hover{
+        color:unset !important;
+    }
+    
     .wrap {
-        margin-top: 6%;
+        height: 200px !important;
+        margin-top: -10%;
     }
     .button{
         margin-top: 5% !important;
@@ -222,4 +227,26 @@ center{
 a.resources{
     font-size: larger;
     text-decoration: none !important;
+}
+
+.MuiBottomNavigation-root {
+    /* margin-top: 2%; */
+    background-color: rgba(0,0,0,0) !important;
+    width: 400px;
+    color: white;
+}
+
+
+a.MuiButtonBase-root {
+    color: snow ;
+}
+
+/* a.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root :hover {
+    color: #24FE41;
+} */
+.MuiPaper-root{
+    height: 55px;
+    /* background-color: transparent !important; */
+    background-color: rgba(0,0,0,0.5) !important;
+
 }

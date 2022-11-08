@@ -8,9 +8,10 @@ import EventDetails from './component/event-details';
 import Contact from './component/Contact';
 import Aos from 'aos';
 import {useEffect} from 'react';
-import Footer from './component/Footer';
-
+import Travel from './component/travel';
+import Mob from './component/Mob';
 function App() {
+  
   useEffect(() => {
     Aos.init({ duration: 200 });
   }, []);
@@ -21,7 +22,8 @@ function App() {
      <Router>
                 <Routes>
                     <Route path="/" element={<> <Home />
-                    <Footer />
+
+                    <Mob />
                     </>
                       
                       
@@ -29,7 +31,8 @@ function App() {
                      } />
                     <Route path="/events" element={<>
                     <Events />
-                    <Footer />
+                    <Mob />
+                    
                   
                   </>} />
                     <Route path="/events/:id" element={
@@ -37,22 +40,30 @@ function App() {
                     
                     
                     <EventDetails />
-                    <Footer />
+                    <Mob />
                     </>
                     
                     
                     } />
-                    {/* <Route path="/events-dFlag" element={<EventDetails data="Capture the Flag" />} />
-                    <Route path="/events-dBlind" element={<EventDetails data="Blind Coding" />} />
-                    <Route path="/events-dUI" element={<EventDetails data="UI Designing" />} />
-                    <Route path="/events-dSolo" element={<EventDetails data="Solo Coding" />} />
-                    <Route path="/events-dPaper" element={<EventDetails data="Paper Presentation" />} />
-                    <Route path="/events-dPoetry" element={<EventDetails data="Poetry Writing" />} />
-                    <Route path="/events-dConnx" element={<EventDetails data="Connextions" />} />
-                    <Route path="/events-dHunt" element={<EventDetails data="Treasure Hunt" />} />
-                    <Route path="/events-dCub" element={<EventDetails data="Cubix Solving" />} />
-                    <Route path="/events-dTal" element={<EventDetails data="Talent Gig" />} /> */}
-                    <Route path="/contactus" element={<Contact/>} />
+                    
+                    <Route path="/contactus" element={<>
+                    
+                    
+                    <Contact/>
+                    </>
+                    
+                    
+                    
+                    } />
+
+<Route path="/bus" element={
+  <>
+
+
+<Travel/>
+<Mob />
+</>
+} />
                 </Routes>
             </Router>
             

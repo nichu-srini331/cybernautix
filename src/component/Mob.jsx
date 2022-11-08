@@ -1,36 +1,65 @@
+// import React from 'react'
 import * as React from 'react';
+import  { useEffect, useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./navbar.css";
+import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import FolderIcon from '@mui/icons-material/Folder';
-import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import HomeIcon from '@mui/icons-material/Home';
+import DirectionsBusFilledIcon from '@mui/icons-material/DirectionsBusFilled';import { Link } from "react-router-dom";
+import Paper from '@mui/material/Paper';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 
-export default function LabelBottomNavigation() {
-  const [value, setValue] = React.useState('recents');
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+export default function Mob() {
+  const [value, setValue] = React.useState(-1);
+
+  const [windowDimension, setWindowDimension] = useState(null);
+
+  useEffect(() => {
+    setWindowDimension(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  const isMobile = windowDimension <= 640;
 
   return (
-    <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
-      <BottomNavigationAction
-        label="Recents"
-        value="recents"
-        icon={<RestoreIcon />}
-      />
-      <BottomNavigationAction
-        label="Favorites"
-        value="favorites"
-        icon={<FavoriteIcon />}
-      />
-      <BottomNavigationAction
-        label="Nearby"
-        value="nearby"
-        icon={<LocationOnIcon />}
-      />
-      <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} />
-    </BottomNavigation>
-  );
+    <div class="">
+            {!isMobile ? (<></>) : (
+          <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={0}>
+          <Box sx={{ width: 400 }}>
+          <BottomNavigation
+            showLabels
+            value={value}
+            // onChange={(event, newValue) => {
+            //   setValue(newValue);
+            // }}
+          >
+
+            <BottomNavigationAction label="Home" icon={<HomeIcon />} component={Link} to="/" />            
+            <BottomNavigationAction label="Contact" icon={<ContactPageIcon />} component={Link} to="/contactus" />
+            <BottomNavigationAction label="Events" icon={<FavoriteIcon />} component={Link} to="/events" />
+            <BottomNavigationAction label="Bus Route" icon={<DirectionsBusFilledIcon />} component={Link} to="/bus"/>
+
+          </BottomNavigation>
+
+        </Box>
+        </Paper>
+        
+        )}
+
+
+        
+       </div>
+  )
 }
