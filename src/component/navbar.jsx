@@ -2,21 +2,12 @@
 import * as React from 'react';
 import  { useEffect, useState } from "react";
 
-import logo from "../image/rmk.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./navbar.css";
-import Box from '@mui/material/Box';
-import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import HomeIcon from '@mui/icons-material/Home';
-import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 
 
 

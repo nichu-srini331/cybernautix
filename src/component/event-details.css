@@ -72,6 +72,10 @@
     .c{
         width: 300px !important;
     }
+
+    div#wapp {
+        margin-left: 1px;
+    }
     
   }
   

@@ -3,18 +3,13 @@ import React from 'react'
 import "./home.modules.css"
 
 import "../text/future-earth.ttf"
-import circuit from "../image/pngwing.com.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import Navigation from './navbar';
 import { Particle } from './Particle';
 import { Link } from "react-router-dom";
 import Timer from "./Countdown/Timer";
 import "./button.css";
-import SimpleBottomNavigation from './Mob';
 
 export default function Home() {
   return (
@@ -23,7 +18,7 @@ export default function Home() {
         <Navigation/>
        <div className='row'>
         <div className='head'>
-        <p className='hp2' style={{fontSize: "35px"}}>RMK ENGINEERING COLLEGE <br></br></p>
+        <p className='hp2' style={{fontSize: "35px"}}>R.M.K. ENGINEERING COLLEGE <br></br></p>
 
         <p className='hp2'>DEPARTMENT OF INFORMATION TECHNOLOGY <br></br></p>
         <p className='hp2' style={{fontSize: "20px"}}> Presents</p>
@@ -95,21 +90,9 @@ export default function Home() {
 </div>
 
 
-        {/* <div className="evebtn">
-            <button className='dbtn1' style={{marginTop : '2%'}}>Register</button>
-        </div>
-        </a> */}
+
         </a>
-        {/* <div className='hcimg'>
-            <img src={circuit} className="himg2"/>
 
-            
-        </div> */}
-        
-
-        {/* <Link to="/events" className="link">
-        <button className='hbtn1'>EVENT</button>
-        </Link> */}
         
         
     </div>

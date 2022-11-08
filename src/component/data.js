@@ -12,7 +12,7 @@ let data=[
     ,
     {
         event:"CAPTURE THE FLAG",
-        time:'12:00 AM',
+        time:'10:00 AM',
         venue:" RM block",
         detail:"CTF (aka Capture The Flag) is a competition where teams or individuals have to solve a number of challenges. The one that solves/collects most flags the fastest wins the game.",
         rules:[ "The flags are hidden in the system.",

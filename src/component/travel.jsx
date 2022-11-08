@@ -10,10 +10,10 @@ export default function Travel(props) {
         <div>
             <Navigation />
             {busRoute.map((bus, index) => (
-                <div class="card-body">
-                    <h4 class="card-title gradient-text">{bus.busStarting}</h4>
+                <div class="card-body cb">
+                    <h4 class="card-title gradient-text g2">{bus.busStarting}</h4>
                     <h5 className="h5">{"Bus Number: "+bus.busNumber}</h5>
-                    <h6 class="card-text" style={{ color: "whitesmoke" }}>
+                    <h6 class="card-text ct" style={{ color: "whitesmoke" }}>
                         <ul className="ul" >{bus.busRoutes}</ul>
                     </h6>
 
